@@ -1,0 +1,7 @@
+To fetch the latest changes from gem5.org perform the following steps:
+
+1. clone the gem5-config directory, e.g., hg clone gem5-config gem5-config.working
+2. cd gem5-config.working
+3. hg convert --filemap convert-from-gem5 --source-type hg --dest-type hg ../gem5 .
+4. cd ../gem5-config
+5. merge the changes into gem5-config
